@@ -1,0 +1,44 @@
+.tnfarticle1{
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  &__line{
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+.tnfarticle2{
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  &__line{
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+.infos{
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  line-height: 200%;
+  font-size: 16px;
+}
+
+.tnf__logo{
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
