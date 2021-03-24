@@ -5,7 +5,7 @@ body{
 }
 
 .section_project{
-  height: 523px;
+  height: 500px;
   &__head{
     width: 100%;
     position: absolute;
@@ -14,7 +14,7 @@ body{
     z-index: -1;
   }
   &__header{
-    width: 90vw;
+    width: 90%;
     color: white;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ body{
 }
 
 .text{
-  padding-top: 80px;
+  padding: 3%;
   width: 100%;
   height: 360px;
   text-align: center;
@@ -63,11 +63,11 @@ body{
 
 
 .article2{
-  margin-left: 60%;
+  margin-left: 55%;
 
   &__line{
     margin-top: 20px;
-    width: 600px;
+    width: 400px;
     border-bottom: solid 1px black;
   }
 

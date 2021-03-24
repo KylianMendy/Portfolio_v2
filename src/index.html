@@ -7,20 +7,24 @@
   <title>Kylian Mendy</title>
   <link rel="stylesheet" href="./scss/_global.scss">
   <link rel="stylesheet" href="https://use.typekit.net/rnp8jrg.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script defer src="./javascript/main.js"></script>
 </head>
 <body>
   <section class="section">
     <div class="section__header">
-      <a href="./pages/Colors.html" rel="stylesheet"><img src="./assets/logo.svg" alt="logo"/></a>
+      <a href="./index.html" rel="stylesheet"><img src="./assets/logo.svg" alt="logo"/></a>
       <ul class="section__menu">
-        <li>Home</li>
-        <li>About</li>
+        <li><a href="index.html" rel="stylesheet">Home</a></li>
+        <li><a href="./pages/About.html" rel="stylesheet">About</a></li>
         <li>Work</li>
         <li>Contact</li>
       </ul>
     </div>
-    <div class="section__title">
+    <video autoplay loop muted>
+      <source src="./assets/bg_home.mp4" type="video/mp4"/>
+    </video>
+    <div data-aos= "zoom-out-left" class="section__title">
       <span class="title__part1">WEB</span>
       <span class="title__part2">DESIGNER</span>
     </div>
@@ -31,14 +35,17 @@
       <li id="moode"> <a href="./pages/Moode.html" rel="stylesheet">Moode</a></li>
       <li id="nike"> <a href="./pages/Nike.html" rel="stylesheet">Nike SB</a></li>
       <li id="tnf"> <a href="./pages/TNF.html" rel="stylesheet">The North face</a></li>
-      <li id="sf"> <a href="./pages/Colors.html" rel="stylesheet">Street Food</a></li>
-      <li id="primitiv"> <a href="./pages/Colors.html" rel="stylesheet">Primitiv</a></li>
-      <li id="player"> <a href="./pages/Colors.html" rel="stylesheet">Player</a></li>
-      <li id="bene"> <a href="./pages/Colors.html" rel="stylesheet">Bene Paramedical</a></li>
+      <li id="sf"> <a href="./pages/SF.html" rel="stylesheet">Street Food</a></li>
+      <li id="primitiv"> <a href="./pages/Primitiv.html" rel="stylesheet">Primitiv</a></li>
+      <li id="player"> <a href="./pages/Player.html" rel="stylesheet">Player</a></li>
+      <li id="bene"> <a href="./pages/Bene.html" rel="stylesheet">Bene Paramedical</a></li>
       <li id="autres"> <a href="./pages/Autres.html" rel="stylesheet">Autres projets</a></li>
     </ul>
-    <p class="projects__description">Lancement d’un projet perso sur la création d’une application pour le célèbre studio d’enregistrement Colors studio qui met en avant de nombreux artistes de notre génération. Ce projet m’a permis de faire mes premiers pas dans le monde du web design. J’ai voulu [...]</p>
+    <p data-aos="fade-down" class="projects__description">Lancement d’un projet perso sur la création d’une application pour le célèbre studio d’enregistrement Colors studio qui met en avant de nombreux artistes de notre génération. Ce projet m’a permis de faire mes premiers pas dans le monde du web design. J’ai voulu [...]</p>
   </section>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

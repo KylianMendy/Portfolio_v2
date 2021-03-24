@@ -7,46 +7,51 @@
   <title>Kylian Mendy</title>
   <link href="../scss/TNF.scss">  
   <link rel="stylesheet" href="../scss/_global.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <div class="bg_test">
     <section class="section_project">
-      <img class="section_project__head" src="../assets/head_tnf.png" alt="">
+      <img data-aos="zoom-in" class="section_project__head" src="../assets/head_tnf.png" alt="">
       <div class="section_project__header">
         <a href="../index.html" rel="stylesheet"><img src="../assets/logo.svg" alt="logo"/></a>
         <ul class="section__menu">
-          <li>Home</li>
-          <li>About</li>
+          <li><a href="../index.html" rel="stylesheet">Home</a></li>
+          <li><a href="./About.html" rel="stylesheet">About</a></li>
           <li>Work</li>
           <li>Contact</li>
         </ul>
       </div>
     </section>
     <div class="text">
-      <p>Ce projet a pour but la mise en avant d’une marque et d'un produit lors de sa sortie J’ai choisi un article de la marque The North Face
+      <p data-aos="fade-up">Ce projet a pour but la mise en avant d’une marque et d'un produit lors de sa sortie J’ai choisi un article de la marque The North Face
         qui me parlait tout en respectant la mise en forme et les informations présentes sur le site original. J’ai utilisé Adobe XD et Photoshop pour cette
         réalisation. La partie prototypage doit permettre à l’utilisateur de cliquer sur les icônes présents sur la page pour obtenir les informations produit.</p>
     </div>
-    <div class="tnfarticle1">
+    <div data-aos="fade-up" class="tnfarticle1">
       <img src="../assets/tnf_1.png">
       <div class="tnfarticle1__line"></div>
       <p class="tnfarticle1__title"> 01-Homepage- </p>
     </div>
-    <p class="infos">Ce projet est porté par une animation au click des différentes icônes : la perspective de la page change ainsi que la position des éléments ( les feuilles, le mannequin, le texte ) et un texte apparaît avec les informations produit comme vous pouvez le voir ci dessous.
+    <p data-aos="fade-up" class="infos">Ce projet est porté par une animation au click des différentes icônes : la perspective de la page change ainsi que la position des éléments ( les feuilles, le mannequin, le texte ) et un texte apparaît avec les informations produit comme vous pouvez le voir ci dessous.
     </p>
 
-    <div class="tnfarticle2">
+    <div data-aos="fade-up" class="tnfarticle2">
       <img src="../assets/tnf_2.png">
       <div class="tnfarticle2__line"></div>
       <p class="tnfarticle2__title"> 02-Page "Notre Histoire"-</p>
     </div> 
     <div class="tnf__logo">
-      <img src="../assets/tnf_logo1.png" alt="">
-      <img src="../assets/tnf_logo2.png" alt="">
-      <img src="../assets/tnf_logo3.png" alt="">
+      <img  data-aos="fade-right" src="../assets/tnf_logo1.png" alt="">
+      <img data-aos="fade-down" src="../assets/tnf_logo2.png" alt="">
+      <img data-aos="fade-left" src="../assets/tnf_logo3.png" alt="">
     </div>
-    <p class="infos"> Voici les 3 icônes qui correspondent aux différentes caractéristiques et informations du produit. Un clic sur ces dernières entraîne un changement de perspective.</p>
+    <p data-aos="fade-up" class="infos"> Voici les 3 icônes qui correspondent aux différentes caractéristiques et informations du produit. Un clic sur ces dernières entraîne un changement de perspective.</p>
     <img class="scotch"src="../assets/tnf_scotch.png">
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

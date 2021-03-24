@@ -7,16 +7,17 @@
   <title>Kylian Mendy</title>
   <link href="../scss/moode.scss">  
   <link rel="stylesheet" href="../scss/_global.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="moode">
   <div class="bg_test">
   <section class="section_project">
-    <img class="section_project__head" src="../assets/head_moode.png" alt="">
+    <img data-aos="zoom-in" class="section_project__head" src="../assets/head_moode.png" alt="">
     <div class="section_project__header">
       <a href="../index.html" rel="stylesheet"><img src="../assets/logo.svg" alt="logo"/></a>
       <ul class="section__menu">
-        <li>Home</li>
-        <li>About</li>
+        <li><a href="../index.html" rel="stylesheet">Home</a></li>
+        <li><a href="./About.html" rel="stylesheet">About</a></li>
         <li>Work</li>
         <li>Contact</li>
       </ul>
@@ -49,5 +50,9 @@
   <img class="bg_moode" src="../assets/moode_foul.png">
   <img class="scotch"src="../assets/moode_scotch.png">
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
