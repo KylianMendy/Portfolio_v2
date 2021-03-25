@@ -14,10 +14,10 @@ const setBackground = (project)=>{
 
   switch(project){
     case project.id === 'moode':
-      background = require('../assets/background_home2.png')
+      background = require('../assets/backgroundhome2.png')
       break;
     case project.id === 'nike':
-      background = require('../assets/nike_bg.png')
+      background = require('../assets/nikebg.png')
       break;
     case project.id === 'tnf':
       break;
@@ -32,7 +32,7 @@ const setBackground = (project)=>{
     case project.id === 'autres':
       break;
     default: 
-    background = require('../assets/background_home.png') 
+    background = require('../assets/backgroundhome.png') 
     break;
   }
 }
