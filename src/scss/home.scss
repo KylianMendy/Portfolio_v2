@@ -9,6 +9,7 @@ a{
   color: white;
 }
 
+
 .section{
   background-color: #1D1D1D;
   width: 100%;
@@ -26,6 +27,10 @@ a{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  
+  li:hover{
+    text-decoration:line-through
+  }
   }
 
   &__menu{
