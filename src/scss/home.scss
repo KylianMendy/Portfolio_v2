@@ -9,6 +9,9 @@ a{
   color: white;
 }
 
+.homebody{
+  background-color: #1D1D1D;
+}
 
 .section{
   width: 100%;
@@ -20,6 +23,7 @@ a{
   font-family: 'Roboto', sans-serif;
 
   &__header{
+  z-index: 2;
   width: 90vw;
   color: white;
   display: flex;

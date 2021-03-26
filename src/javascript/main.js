@@ -5,6 +5,7 @@ const allPrjctBis = [...allProjects];
 
 import colors_bg from "../assets/backgroundhome.png"
 import moode_bg from "../assets/backgroundhome2.png"
+import nike_bg from "../assets/nikebg.png"
 import sf_bg from "../assets/backgroundhomesf.png"
 import tnf_bg from "../assets/backgroundhometnf.png"
 import primitiv_bg from "../assets/backgroundhomeprim.png"
