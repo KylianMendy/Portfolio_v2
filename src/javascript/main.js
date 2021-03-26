@@ -1,39 +1,61 @@
 
 const projects = document.getElementById('projects');
-const allprojects = document.querySelectorAll('.projects__name li')
+const allProjects = document.querySelectorAll('.projects__name li');
+const allPrjctBis = [...allProjects];
+
+import colors_bg from "../assets/backgroundhome.png"
+import moode_bg from "../assets/backgroundhome2.png"
+import sf_bg from "../assets/backgroundhomesf.png"
+import tnf_bg from "../assets/backgroundhometnf.png"
+import primitiv_bg from "../assets/backgroundhomeprim.png"
+import player_bg from "../assets/backgroundhomeplayer.png"
+import bene_bg from "../assets/backgroundhomebene.png"
+import autre_bg from "../assets/backgroundhomeautre.png"
+
+
+
 
 let background;
 
-allprojects.map(project =>{
-  project.addEventListener('mouseover',setBackground(project));
-  project.style.backgroundImage = `url(${background})`
-})
 
-const setBackground = (project)=>{
+allPrjctBis.map(project => {
+  project.addEventListener('mouseover', project => setBackground(project) )
+});
 
-  switch(project){
-    case project.id === 'moode':
-      background = require('../assets/backgroundhome2.png')
+let test; 
+
+const setBackground = ({target})=>{
+
+  switch(target.id){
+    case 'colors':
+      background = colors_bg 
       break;
-    case project.id === 'nike':
-      background = require('../assets/nikebg.png')
+    case 'moode':
+      background = moode_bg 
       break;
-    case project.id === 'tnf':
+    case 'nike':
+      background = nike_bg;
       break;
-    case project.id === 'sf':
+    case  'tnf':
+      background = tnf_bg;
       break;
-    case project.id === 'primitiv':
+    case  'sf':
+      background = sf_bg;
       break;
-    case project.id === 'player':
+    case  'primitiv':
+      background = primitiv_bg;
       break;
-    case project.id === 'bene':
+    case  'player':
+      background = player_bg;
       break;
-    case project.id === 'autres':
+    case  'bene':
+      background = bene_bg;
       break;
-    default: 
-    background = require('../assets/backgroundhome.png') 
-    break;
+    case  'autres':
+      background = autre_bg;
+      break;
   }
+  projects.style.backgroundImage = `url(${background})`;
 }
 
 
