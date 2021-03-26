@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/rnp8jrg.css");
+
+.sf{
+  background-color: #1d1d1d;
+  color: white;
+  line-height: 200%;
+  font-size: 18px;
+}
+
+.text_sf{
+  width: 100%;
+  height: 360px;
+  padding-top: 6%;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  color: #1D1D1D;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  line-height: 200%;
+
+  p{
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sfarticle1{
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 16px;
+
+  &__text{
+    margin-left: 10%;
+  }
+
+
+  &__title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  &__line{
+    border-bottom: solid 1px white;
+    margin-bottom: 5%;
+  }
+}
+
+.sfarticle2{
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 16px;  
+
+  &__text{
+    margin-right: 10%;
+  }
+
+  &__line{
+    border-bottom: solid 1px white;
+    margin-bottom: 5%;
+    margin-top : 5%;
+  }
+}
+
+.bowl{
+  position: absolute;
+  top: 210%;
+}
+
+
+.sfdef{
+  width: 900px;
+  margin-left: 35%;
+  margin-right: auto;
+  margin-bottom: 300px;
+  margin-top: 300px;
+  font-family: hero-new-hairline, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+  &__title{
+    font-size: 144px;
+    margin-bottom: 8%;
+  }
+  &__text{
+    font-size: 24px;
+  }
+}
+
+.sfarticle3{
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+
+  &__title{
+    margin-top: 5%;
+  }
+  &__line{
+    width: 600px;
+    border-bottom: solid 1px white;
+    margin-top: 3%;
+  }
+}
