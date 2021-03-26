@@ -14,16 +14,10 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   overflow-x: hidden;
+}
 
-  body::-webkit-scrollbar {
-    width: 0em;
-  }
-   
-  body::-webkit-scrollbar-track {
-    box-shadow: none;
-  }
-   
-  body::-webkit-scrollbar-thumb {
-    background-color: none;
-  }
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+  background: none;
 }
