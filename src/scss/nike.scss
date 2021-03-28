@@ -12,12 +12,20 @@
     &__text{
       margin-top: 40px;
       line-height: 160%;
+      position: relative; 
     }
     &__texts{
       width: 640px;
       margin-left: auto;
       margin-right: auto;
     }
+}
+
+.logo{
+  position: absolute;
+  top: 220%;
+  left: 0;
+  z-index: 10;
 }
 
 .nikearticle2{
@@ -44,11 +52,7 @@
   }
 }
 
-.logo{
-  top: 210%;
-  position: absolute;
-  z-index: 1;
-}
+
 
 .text{
     height: 250px;
@@ -56,14 +60,14 @@
 
 .travis{
   width: 100%;
-  overflow: hidden;
   display: flex;
+  position: relative;
 
   &__pic{
     position: absolute;
-    top: 387%;
+    top: -50%;
     left: -5%;
-    z-index: 8;
+    z-index: 2;
   }
 
   &__text{

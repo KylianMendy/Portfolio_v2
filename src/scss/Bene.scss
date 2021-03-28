@@ -39,26 +39,34 @@
 }
 
 .bene_displayphone{
-  width: 1200px;
+  width: 900px;
+  display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
+  justify-content: space-arounds;
+  position: relative;
+  margin-left: 35%;
 
-  &__pic1{
-    position: relative;
-    left: 2%;
+  img{
+    width: 50%;
   }
-  &__pic2{
-    position: absolute; 
-    left: 55%;
-  }
-  &__pic3{
-    position: relative;
-    top: -10%;
-    left: 22%;
-  }
-  &__pic4{
-    position: absolute; 
-    left: 48%;
-    top: 490%;
-  }
+  // &__pic1{
+  //   width: 50%;
+  //   position: absolute;
+  // }
+  // &__pic2{
+  //   width: 30%;
+  //   position: absolute; 
+  // }
+  // &__pic3{
+  //   width: 50%;
+  //   position: absolute;
+  //   top: 0%;
+  //   left: 0%;
+  // }
+  // &__pic4{
+  //   width: 30%;
+  //   position: absolute; 
+  //   left: 0%;
+  //   top: 0%;
+  // }
 }
