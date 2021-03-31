@@ -25,6 +25,8 @@ a{
 
   &__header{
   width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   display: flex;
   flex-direction: row;
@@ -126,6 +128,10 @@ a{
   top: 5%;
   width: 80vw;
   min-height: 100%;
+
+  @media (min-width: 1920px) {
+    top: 0%;
+  }
 }
 .scrollvid{
   margin-top: 5%;
