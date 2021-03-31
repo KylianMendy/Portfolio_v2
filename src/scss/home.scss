@@ -93,8 +93,9 @@ a{
   &__bg{
     position: absolute;
     z-index: 4;
-    width: 100%;
+    width: 10%;
     left: 8%;
+    align-items: center;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
