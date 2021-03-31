@@ -59,4 +59,17 @@ const setBackground = ({target})=>{
   projects.style.backgroundImage = `url(${background})`;
 }
 
+const contact = document.getElementById('contact')
+const ContactButton = document.getElementById('opencontact')
+
+contact.style.display === "none";
+
+ContactButton.addEventListener('click',function(){
+
+  if (contact.className === "contactclose") {
+    contact.className = "contact";
+  } else {
+    contact.className = "contactclose";
+  }
+})
 
