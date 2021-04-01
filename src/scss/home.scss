@@ -33,6 +33,12 @@ a{
   justify-content: space-between;
   align-items: center;
   
+
+  li{
+    cursor: pointer;
+    position: relative;
+  }
+
   li:hover{
     text-decoration:line-through
   }
@@ -113,7 +119,8 @@ a{
 }
 
 .wavebghome{
-  position: fixed;
+  position: absolute;
+  object-fit: cover;
   z-index: 1;
   left: 10%;
   top: 20%;
@@ -195,7 +202,7 @@ a{
   &__description{
     position: relative;
     top: 30%;
-    left: 70%;
+    left: 75%;
     width: 320px;
     color: white;
     font-size: 14px;
